@@ -39,6 +39,10 @@
 ([paper](https://aclanthology.org/D19-1190.pdf) | [code](https://github.com/golsun/StyleFusion))  
 提出了***STYLEFUSION***一个具有arXiv以及Holmes风格回复生成数据集。从arXiv这个网站收集1998到2002的文章共100万个句子，并从福尔摩斯系列小说中提取38K个句子
 
+4. Niu and Bansal TACL Journal 2018 Polite Dialogue Generation Without Parallel Data
+([paper](https://aclanthology.org/D19-1190.pdf) | [code](https://github.com/golsun/StyleFusion))  
+提出了***Stanford Politeness Corpus***斯坦福礼貌风格回复数据集。从开放式问答网页（包含Wikipedia editor's talk page以及Stack Exchange QA communities）中收集，并标注了粗鲁及礼貌的回复
+
 ## Emotional Response Generation  情感可控回复  
 - Dataset数据集
 
