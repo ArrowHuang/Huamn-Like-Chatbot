@@ -17,6 +17,14 @@
 ([paper](https://arxiv.org/pdf/1901.09672.pdf) | [code](https://github.com/silverriver/PersonalDilaog))  
 提出了**PD**，一个基于微博的中文个性化单轮回复数据集。从中文社交媒体Weibo中收集得到，总共20.83M的对话，8.47M的user。其中每一个user的个人信息包括Gender, Age, Location, Interest Tags以及Self Description
 
+4. Zhang et al. ACL2018 Personalizing Dialogue Agents: I have a dog, do you have pets too?
+([paper](https://arxiv.org/pdf/1801.07243.pdf) | [code](https://github.com/facebookresearch/ParlAI))   
+提出了**PERSONA-CHAT**(**PC**)，包含了1K多个性格，标记人员需要按照给定的性格来建构对话，这个数据集是全靠annotator根据给定的性格写对话，其他相关的研究都是采用社交媒体上现有的数据以及用户个人信息介绍来构建
+
+5. Mazare et al. ENMLP2018  Training Millions of Personalized Dialogue Agents
+([paper](https://arxiv.org/pdf/1809.01984.pdf) | [code](https://github.com/Exe-dev/PersonaGeneration))  
+提出了**PCR**，第一个基于Reddit的个性化信息数据集。首次提出从Reddit中获取user的post以及commit作为个人信息，共收集700M的基于个性化的对话以及5M人信息
+
 ## Stylized Dialogue Response Generation   特定风格回复  
 - Dataset数据集
 
