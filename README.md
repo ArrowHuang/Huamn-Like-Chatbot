@@ -61,7 +61,7 @@
 - Dataset数据集
 1. Welivita et al. EMNLP2021 A Large-Scale Dataset for Empathetic Response Generation
 ([paper](https://aclanthology.org/2021.emnlp-main.96.pdf) | [code](https://github.com/anuradha1992/EDOS))  
-提出了EDOS，一个基于电影字幕的大规模的共情回复数据集。从OpenSubtitles电影字幕语料库中搜集4M的数据，并且用一个分类器（在 EmpatheticDialogues 数据集上 训练的BERT分类器）给数据打上标签最终得到1M的带有情绪标签的对话。该数据集包含了32中的情绪、8种共情回复的意图（Questioning; Agreeing; Acknowledging; Sympathizing; Encouraging; Consoling: Suggesting; and Wishing）还有中性的标签
+提出了***EDOS***，一个基于电影字幕的大规模的共情回复数据集。从OpenSubtitles电影字幕语料库中搜集4M的数据，并且用一个分类器（在 EmpatheticDialogues 数据集上 训练的BERT分类器）给数据打上标签最终得到1M的带有情绪标签的对话。该数据集包含了32中的情绪、8种共情回复的意图（Questioning; Agreeing; Acknowledging; Sympathizing; Encouraging; Consoling: Suggesting; and Wishing）还有中性的标签
 
 2. Zhong et al. EMNLP2020 Towards persona-based empathetic conversational models
 ([paper](https://aclanthology.org/2020.emnlp-main.531.pdf) | [code](https://github.com/zhongpeixiang/PEC))  
@@ -69,5 +69,5 @@
 
 3. Rashkin et al. ACL2019  Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset
 ([paper](https://arxiv.org/pdf/1811.00207.pdf) | [code](https://github.com/facebookresearch/EmpatheticDialogues))  
-提出了EMPATHETICDIALOGUES，一个共情回复生成的Benchmark数据集。数据集包括24,850 个关于不同情绪的情景下的对话，收集自 810 位不同的参与者，其中关于情绪的标签一共
+提出了***EMPATHETICDIALOGUES***，一个共情回复生成的Benchmark数据集。数据集包括24,850 个关于不同情绪的情景下的对话，收集自 810 位不同的参与者，其中关于情绪的标签一共
 有32种
