@@ -45,9 +45,17 @@
 
 ## Emotional Response Generation  情感可控回复  
 - Dataset数据集
+1. Zhou et al. AAAI2018 Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory  
+([paper](https://arxiv.org/pdf/1704.01074.pdf) | [code](https://github.com/tuxchow/ecm))  
+提出了***ESTC***(***Emotional STC***)数据集，先是在NLPCC数据集上训练情感分类器，然后在STC数据集上自动打上7类情感标签(Angry, Disgust, Happy, Like, Sad, Other)，总共包含217,905段对话  
 
+2. Lubis et al. AAAI2018 Eliciting Positive Emotion through Affect-Sensitive Dialogue Response Generation: A Neural Network Approach
+([paper](https://ahcweb01.naist.jp/papers/conference/2018/201802_AAAI_nurul-lu_1/201802_AAAI_nurul-lu_1.paper.pdf) | code)  
+在SubTle对话数据集上，使用SEMAINE情感分类数据(包含了8类的情感Alert, Excited, Elated, Happy, Content, Serene, Relaxed, Calm)去标注数据，最后得到2,349笔对话  
 
-
+3. Huang et al. NLPCC2017 Overview of the NLPCC 2017 Shared Task: Emotion Generation Challenge
+([paper](http://coai.cs.tsinghua.edu.cn/hml/media/files/Overview_of_the_NLPCC_2017_Shared_Task__Emotion_Generation_Challenge.pdf) | [Link](http://tcci.ccf.org.cn/conference/2017/dldoc/taskgline04.pdf))  
+清华黄民烈教授在NLPCC上发布了一个情感可控回复生成的数据集，该数据集是从微博的发文及回复中抽取，共计5000段。每段发文与回复都有一个情感的标签，一共分成五种情感(Like, Sad, Disgust, Angry, Happy)
 
 ## Empathetic Responding    共情回复
 - Dataset数据集
