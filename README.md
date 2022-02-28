@@ -1,6 +1,6 @@
 # Huamn-Like-Chatbot
 本项目主旨是让聊天机器人在对话过程中更像一个人类，整理一些目前最新的研究与本人自己的想法与实验  
-目前从四个面向来让聊天机器人类人化：**个性化回复(Personalized Response Generation)**、**特定风格回复(Stylized Dialogue Response Generation)**、**情感可控回复(Emotional Response Generation)** 与 **共情回复(Empathetic Responding)**  
+目前从四个面向来让聊天机器人类人化：**个性化回复(Personalized Response Generation)**、**特定风格回复(Stylized Dialogue Response Generation)**、**情感可控回复(Emotional Response Generation)**、**共情回复(Empathetic Responding)** 与 **知识驱动回复(Knowledge-driven Response Generation)**  
 接下来将持续更新补充
 
 ## Personalized Response Generation  个性化回复  
@@ -71,3 +71,5 @@
 ([paper](https://arxiv.org/pdf/1811.00207.pdf) | [code](https://github.com/facebookresearch/EmpatheticDialogues))  
 提出了***EMPATHETICDIALOGUES***，一个共情回复生成的Benchmark数据集。数据集包括24,850 个关于不同情绪的情景下的对话，收集自 810 位不同的参与者，其中关于情绪的标签一共
 有32种
+
+## Knowledge-driven Response Generation    知识驱动回复
