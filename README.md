@@ -78,7 +78,11 @@
 ([paper](https://aclanthology.org/2020.acl-main.635.pdf) | [code](https://github.com/thu-coai/KdConv))  
 提出了***KdConv***，一个中文的多领域多轮知识驱动对话数据集。数据集包含了86K个句子、4.5K段对话，包含了三个主题分别是电影、音乐、旅游，且每一个主题包含1.5K段对话。
 
-2. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
+2. Tuan et al. EMNLP2019 DyKgChat: Benchmarking Dialogue Generation Grounding on Dynamic Knowledge Graphs
+([paper](http://aclanthology.lst.uni-saarland.de/D19-1194.pdf) | [code](https://github.com/Pascalson/DyKGChat))  
+提出了***DyKgChat***，从后宫甄嬛传与美剧老友记中提取人物关系作为知识图谱，然后分别从甄嬛传与老友记收集1247段(17,164轮)对话与3092段(57,757轮)对话。
+
+3. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
 ([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm))  
 首次在对话生成领域使用大规模的知识图谱。其中，使用了开源的知识图谱ConceptNet和从Reddit上面收集的10M的单轮对话数据。利用ConceptNet过滤对话数据，如果在对话的问答对(post-response pair)中，问和回答都与ConceptNet图上的三元组triple有连接，则保留问答对。最后过滤得到3,384,185笔对话作为训练数据，10,000笔验证数据及20,000笔测试数据。
 
