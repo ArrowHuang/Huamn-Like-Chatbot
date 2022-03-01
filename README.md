@@ -74,7 +74,11 @@
 
 ## Knowledge-driven Response Generation    知识驱动回复
 - Dataset数据集
-1. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
+1. Zhou et al. ACL2020 KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation
+([paper](https://aclanthology.org/2020.acl-main.635.pdf) | [code](https://github.com/thu-coai/KdConv))  
+提出了***KdConv***，一个中文的多领域多轮知识驱动对话数据集。数据集包含了86K个句子、4.5K段对话，包含了三个主题分别是电影、音乐、旅游，且每一个主题包含1.5K段对话。
+
+2. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
 ([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm))  
 首次在对话生成领域使用大规模的知识图谱。其中，使用了开源的知识图谱ConceptNet和从Reddit上面收集的10M的单轮对话数据。利用ConceptNet过滤对话数据，如果在对话的问答对(post-response pair)中，问和回答都与ConceptNet图上的三元组triple有连接，则保留问答对。最后过滤得到3,384,185笔对话作为训练数据，10,000笔验证数据及20,000笔测试数据。
 
