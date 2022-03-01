@@ -1,6 +1,6 @@
 # Huamn-Like-Chatbot
 本项目主旨是让聊天机器人在对话过程中更像一个人类，整理一些目前最新的研究与本人自己的想法与实验  
-目前从四个面向来让聊天机器人类人化：**个性化回复(Personalized Response Generation)**、**特定风格回复(Stylized Dialogue Response Generation)**、**情感可控回复(Emotional Response Generation)**、**共情回复(Empathetic Responding)** 与 **知识驱动回复(Knowledge-driven Response Generation)**  
+目前从五个面向来让聊天机器人类人化：**个性化回复(Personalized Response Generation)**、**特定风格回复(Stylized Dialogue Response Generation)**、**情感可控回复(Emotional Response Generation)**、**共情回复(Empathetic Responding)** 与 **知识驱动回复(Knowledge-driven Response Generation)**  
 接下来将持续更新补充
 
 ## Personalized Response Generation  个性化回复  
@@ -73,3 +73,11 @@
 有32种
 
 ## Knowledge-driven Response Generation    知识驱动回复
+- Dataset数据集
+1. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
+([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm))  
+首次在对话生成领域使用大规模的知识图谱。其中，使用了开源的知识图谱ConceptNet和从Reddit上面收集的10M的单轮对话数据。利用ConceptNet过滤对话数据，如果在对话的问答对(post-response pair)中，问和回答都与ConceptNet图上的三元组triple有连接，则保留问答对。最后过滤得到3,384,185笔对话作为训练数据，10,000笔验证数据及20,000笔测试数据。
+
+- Model模型架构
+1. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
+([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm)) 
