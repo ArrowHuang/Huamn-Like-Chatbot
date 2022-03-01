@@ -81,3 +81,4 @@
 - Model模型架构
 1. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
 ([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm)) 
+提出了***CCM***(<ins><b>C</b></ins>ommonsense knowledge aware <ins><b>C</b></ins>onversational <ins><b>M</b></ins>odel)的模型架构。模型分成三部分：Knowledge Interpreter, Encoder-Decoder与Knowledge Aware Generator。Knowledge Interpreter根据问句中的每一个word去检索知识图谱，然后把word vector与对应的knowledge graph vector拼接起来；基于GRU的编码-解码结构用于编译问句与解码回答；Knowledge Aware Generator结合检索到的知识图谱获得graph-aware context vector用于更新解码器的状态，自适应地从图中选择word或entity做生成。
