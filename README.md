@@ -90,3 +90,7 @@
 1. Zhou et al. IJCAI2018 Commonsense Knowledge Aware Conversation Generation with Graph Attention
 ([paper](https://www.ijcai.org/proceedings/2018/643) | [code](https://github.com/thu-coai/ccm)) 
 提出了***CCM***(<ins><b>C</b></ins>ommonsense knowledge aware <ins><b>C</b></ins>onversational <ins><b>M</b></ins>odel)的模型架构。模型分成三部分：Knowledge Interpreter, Encoder-Decoder与Knowledge Aware Generator。Knowledge Interpreter根据问句中的每一个word去检索知识图谱，然后把word vector与对应的knowledge graph vector拼接起来；基于GRU的编码-解码结构用于编译问句与解码回答；Knowledge Aware Generator结合检索到的知识图谱获得graph-aware context vector用于更新解码器的状态，自适应地从图中选择word或entity做生成。
+
+2. Liu et al. EMNLP2019 Knowledge Aware Conversation Generation with Explainable Reasoning over Augmented Graphs
+([paper](https://aclanthology.org/D19-1187.pdf) | code)  
+提出了***AKGCM***(<ins><b>A</b></ins>ugmented <ins><b>K</b></ins>nowledge <ins><b>G</b></ins>raph based open-domain <ins><b>C</b></ins>hatting <ins><b>M</b></ins>achine)的模型架构。模型分成两阶段：Knowledge Selection与Response Generation。首先是将知识融入到对话文本中，论文以一般的三元组知识图为基本结构，将非结构化知识句整体作为顶点加入知识图，并将其与句子中所包含的知识图中的顶点进行连边。Knowledge Selection主要是用RL的方法从知识图谱中选择适当的顶点；Response Generation主要是基于融合的知识生成回复。
